@@ -9,8 +9,8 @@ preserve-inputs
 accounts-ui
 accounts-github
 coffeescript
-scss
 underscore
 force-ssl
 jquery
 showdown
+stylus
