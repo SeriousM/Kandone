@@ -1,15 +1,7 @@
 {
   "meteor": {},
   "dependencies": {
-    "basePackages": {
-      "iced-coffee-script": {}
-    },
-    "packages": {
-      "iced-coffee-script": {
-        "git": "https://github.com/hipertracker/meteor-iced-coffee-script.git",
-        "tag": "v0.2.3",
-        "commit": "356803e6667d44ea273e6f98d7bbbf4cac7c3f99"
-      }
-    }
+    "basePackages": {},
+    "packages": {}
   }
 }
