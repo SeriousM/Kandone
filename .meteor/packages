@@ -10,7 +10,6 @@ accounts-ui
 accounts-github
 coffeescript
 underscore
-force-ssl
 jquery
 showdown
 stylus
