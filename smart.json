@@ -2,6 +2,7 @@
   "packages": {
     "observatory": {},
     "bootstrap-3": {},
-    "iron-router": {}
+    "iron-router": {},
+    "accounts-entry": {}
   }
 }
