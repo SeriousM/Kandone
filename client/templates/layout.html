@@ -1,0 +1,15 @@
+<template name="layout">
+  <nav class="navbar navbar-default" role="navigation">
+  </nav>
+  <div class="container">
+    <div class="page-header">
+      <h1>Kandone</h1>
+      <p class="lead">A web-based kanban board.</p>
+    </div>
+    <!-- the main template will be rendered here -->
+    {{yield}}
+  </div>
+  <div class="container">
+    {{>logs_bootstrap}}
+  </div>
+</template>
