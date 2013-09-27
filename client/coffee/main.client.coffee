@@ -1,2 +1,1 @@
-if Meteor.isClient
-  console.log "Hi"
+logger.info "Hi from the client"
