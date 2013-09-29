@@ -1,7 +1,7 @@
 Handlebars.registerHelper "run", (name, params) ->
-  return "not implemented"
   _.reduce _.words(name, '.'), ((memo, item) ->
-    result = memo[item]
-    result = result() if item.endsWith '()'
-    result
+    if _.endsWith(item, '()')
+      memo[_.trim(item, "()")]()
+    else
+      memo[item]
   ), window

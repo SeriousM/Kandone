@@ -3,7 +3,6 @@
 @Utils.getUserName =->
   user = Meteor.user()
   
-  return "not implemented yet"
   return "Not logged in" if not user
   
   if user.username
