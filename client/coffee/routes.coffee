@@ -7,7 +7,7 @@ Router.map ->
   # issue: https://github.com/BeDifferential/accounts-entry/pull/11
   @route 'dashboard', path: '/',
   onBeforeRun: ->
-    @redirect('differentialSignUp') unless Meteor.user()
+    @redirect('home')
   @route 'home', path: '/',
   onBeforeRun: ->
     @redirect('differentialSignUp') unless Meteor.user()
