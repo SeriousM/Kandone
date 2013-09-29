@@ -3,12 +3,17 @@ AccountsEntry.config =
   #privacyUrl: '/privacy-policy'
   #termsUrl: '/terms-of-use'
   homeRoute: 'home'
-  #dashboardRoute: 'dashboard'
+  dashboardRoute: 'home'
   #profileRoute: 'profile'
 
 Meteor.startup ->
-  Accounts.ui.config(
+  Accounts.ui.config
     passwordSignupFields: 'USERNAME_AND_EMAIL'
-  )
+  
+  Hooks.init()
+
+Hooks.onLoggedOut = (userId) ->
+  logger.info 'user logged out!'
+  Router.go 'home'
 
 logger.info "Client startup done"

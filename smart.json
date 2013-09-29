@@ -7,6 +7,7 @@
     "font-awesome": {},
     "npm": {},
     "underscore-string-latest": {},
-    "timeago": {}
+    "timeago": {},
+    "event-hooks": {}
   }
 }

@@ -9,7 +9,8 @@
       "font-awesome": {},
       "npm": {},
       "underscore-string-latest": {},
-      "timeago": {}
+      "timeago": {},
+      "event-hooks": {}
     },
     "packages": {
       "observatory": {
@@ -51,6 +52,11 @@
         "git": "https://github.com/BeDifferential/timeago.git",
         "tag": "v0.0.2",
         "commit": "1f2afcbfaa37f97c4a966058388d85c6ada3fe8f"
+      },
+      "event-hooks": {
+        "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
+        "tag": "v1.4.3",
+        "commit": "ba4f3d7887748458618d29615492906f0c88d31c"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",
