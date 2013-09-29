@@ -4,6 +4,7 @@
     "bootstrap-3": {},
     "iron-router": {},
     "accounts-entry": {},
-    "font-awesome": {}
+    "font-awesome": {},
+    "npm": {}
   }
 }
