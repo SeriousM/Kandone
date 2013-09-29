@@ -8,7 +8,8 @@
       "accounts-entry": {},
       "font-awesome": {},
       "npm": {},
-      "underscore-string-latest": {}
+      "underscore-string-latest": {},
+      "timeago": {}
     },
     "packages": {
       "observatory": {
@@ -45,6 +46,11 @@
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
         "tag": "v2.3.3",
         "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      },
+      "timeago": {
+        "git": "https://github.com/BeDifferential/timeago.git",
+        "tag": "v0.0.2",
+        "commit": "1f2afcbfaa37f97c4a966058388d85c6ada3fe8f"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",
