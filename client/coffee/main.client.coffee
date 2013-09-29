@@ -14,6 +14,6 @@ Meteor.startup ->
 
 Hooks.onLoggedOut = (userId) ->
   logger.info 'user logged out!'
-  Router.go 'home'
+  Router.go 'boards'
 
 logger.info "Client startup done"

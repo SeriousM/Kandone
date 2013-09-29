@@ -11,4 +11,5 @@ Router.map ->
   @route 'home', path: '/',
   onBeforeRun: ->
     @redirect('differentialSignUp') unless Meteor.user()
+  @route 'board', path: '/board/:_id'
   @route 'notFound', path: '*'

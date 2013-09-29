@@ -1,0 +1,33 @@
+<template name="home">
+  <h1>Boards</h1>
+  {{>my_boards}}
+</template>
+
+<template name="my_boards">
+  <div class="row">
+    <div class="col-md-12">
+      {{#each boards}}
+        {{>my_board}}
+      {{/each}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      {{>new_board}}
+    </div>
+  </div>
+</template>
+
+<template name="my_board">
+  <button type="button" class="btn btn-default navigate">{{name}}</button>
+  <button type="button" class="btn btn-danger btn-xs delete">X</button>
+</template>
+
+<template name="new_board">
+  <form role="form" class="form-inline">
+    <div class="form-group">
+      <input required type="text" id="new-board-name" class="form-control" placeholder="new-board-name" />
+    </div>
+    <button type="button" id="create-board" class="btn btn-default">Create!</button>
+  </form>
+</template>
