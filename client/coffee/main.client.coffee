@@ -6,7 +6,9 @@ AccountsEntry.config =
   #dashboardRoute: 'dashboard'
   #profileRoute: 'profile'
 
-
-
+Meteor.startup ->
+  Accounts.ui.config(
+    passwordSignupFields: 'USERNAME_AND_EMAIL'
+  )
 
 logger.info "Client startup done"

@@ -5,7 +5,8 @@
       "observatory": {},
       "bootstrap-3": {},
       "iron-router": {},
-      "accounts-entry": {}
+      "accounts-entry": {},
+      "font-awesome": {}
     },
     "packages": {
       "observatory": {
@@ -27,6 +28,11 @@
         "git": "https://github.com/BeDifferential/accounts-entry.git",
         "tag": "v0.2.2",
         "commit": "5fe06fccacb6906adf5217d176488104638b229c"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v3.2.1",
+        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",

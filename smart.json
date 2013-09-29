@@ -3,6 +3,7 @@
     "observatory": {},
     "bootstrap-3": {},
     "iron-router": {},
-    "accounts-entry": {}
+    "accounts-entry": {},
+    "font-awesome": {}
   }
 }

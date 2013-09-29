@@ -18,3 +18,5 @@ bootstrap-3
 accounts-ui
 iron-router
 accounts-entry
+accounts-password
+font-awesome
