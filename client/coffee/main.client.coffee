@@ -4,7 +4,6 @@ AccountsEntry.config =
   #termsUrl: '/terms-of-use'
   homeRoute: 'home'
   dashboardRoute: 'home'
-  #profileRoute: 'profile'
 
 Meteor.startup ->
   Accounts.ui.config
@@ -12,8 +11,10 @@ Meteor.startup ->
   
   Hooks.init()
 
+Hooks.onLoggedIn = (userId) ->
+  logger.info 'user logged in!'
+  
 Hooks.onLoggedOut = (userId) ->
   logger.info 'user logged out!'
-  Router.go 'boards'
 
 logger.info "Client startup done"
